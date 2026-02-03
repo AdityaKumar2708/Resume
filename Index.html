@@ -1,228 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Aditya's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Kumar | Android & Spring Developer</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <a href="#" class="logo">Portfolio</a>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="#blog" class="nav-link">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <div class="hero-section">
-            <div id="content">
-                <h2>Hi There, <br>I'm Aditya <span>Kumar</span></h2>
-                <p>I am into <span class="typing-text"></span></p>
-                <a href="#about" class="btn"><span>About Me</span>
-                    <i class="fa-solid fa-circle-down"></i>
-                </a>
-                <div class="social">
-                    <ul class="social-icons">
-                        <li><a href="#" class="Linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="#" class="github" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="#" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#" class="x" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="image">
-                <img src="githut.png" alt="img">
-            </div>
-        </div>
-    </section>
+<header>
+  <div class="nav">
+    <h2>Aditya</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="resume-btn" href="assets/Aditya_Kumar_Resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+  </div>
+</header>
 
-    <section id="about" class="about">
-        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-        <div class="container">
-            <img src="ProfilePic.jpeg" alt="ProfilePic">
-            <div class="img-content">
-                <h3>I'm Aditya</h3>
-                <span class="tag">App Developer</span>
-                <p>I am an App Developer in Gurugram. I graduated from MERI Institute with a Bachelor of Computer Application. I am a passionate app developer with a keen interest in creating innovative and user-friendly applications. I have a strong foundation in programming languages such as Java, Kotlin, Dart, and Spring Boot. I have experience in developing Android applications using Android Studio and Flutter. I am always eager to learn new technologies and improve my skills.</p>
-                <div class="box-container">
-                    <div class="box">
-                        <p><span>E-Mail:</span> adityakumar3216543@gmail.com</p>
-                        <p><span>Place:</span> Uttar Pradesh, India - 229001</p>
-                    </div>
-                </div>
-                <div class="resume-btn">
-                    <a href="#" target="_blank" class="btn"><span>Resume</span>
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <h2 class="heading"><i class="fas fa-laptop-code"> Skill & <span> Abilities</span></i></h2>
-        <div class="skill-container">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-            <img src="githut.png" alt="img" id="skill">
-        </div>
-    </section>
-
-    <div class="projects" id="projects">
-        <h2 class="title">
-            <i class="fas fa-laptop-code"> Projects <span> Made</span></i> 
-        </h2>
-        <div class="project-container">
-            <div class="project-box">
-                <img src="githut.png" alt="Project Image">
-                <h3>Project Title</h3>
-                <p>Short description of the project goes here.</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-            <div class="project-box">
-                <img src="githut.png" alt="Project Image">
-                <h3>Project Title</h3>
-                <p>Short description of the project goes here.</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-            <div class="project-box">
-                <img src="githut.png" alt="Project Image">
-                <h3>Project Title</h3>
-                <p>Short description of the project goes here.</p>
-                <a href="#" class="btn">View Project</a>
-            </div>
-            <!-- Add more project boxes as needed -->
-        </div>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Hi, I'm <span>Aditya Kumar</span></h1>
+      <h3 class="typing-text"></h3>
+      <p>Android developer and Java Spring backend developer building real-world mobile and backend systems.</p>
+      <a class="btn" href="#projects">View Work</a>
     </div>
+    <div class="card">
+      <h3>Profile</h3>
+      <p>BCA (IT) student at Meri College of Engineering, MDU. Focused on scalable Android apps, REST APIs and payment / service integrations.</p>
+    </div>
+  </div>
+</section>
 
-    <section id="contact">
-        <h2 class="contact-heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-        <div class="contact-container">
-            <form id="contact-form">
-                <div class="input-box">
-                    <input type="text" id="name" placeholder="Full Name" required>
-                    <input type="email" id="email" placeholder="Email Address" required>
-                </div>
-                <div class="input-box">
-                    <input type="tel" id="phone" placeholder="Phone Number">
-                    <input type="text" id="subject" placeholder="Subject" required>
-                </div>
-                <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <button type="submit" class="submit-btn">
-                    Send Message <i class="fas fa-paper-plane"></i>
-                </button>
-                <div id="form-status"></div>
-            </form>
-        </div>
-    </section>
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am Aditya Kumar, a BCA (Information Technology) student at Meri College of Engineering, MDU.
+        I specialize in Android application development and backend development using Java and Spring Boot.
+        I am currently building a real-world group expense and utility management platform named Splity.
+      </p>
+    </div>
+  </div>
+</section>
 
-    <footer class="portfolio-footer">
-        <div class="footer-content">
-            <div class="footer-left">
-                <h3>Aditya Kumar</h3>
-                <p>Full Stack Developer</p>
-            </div>
-            <div class="footer-middle">
-                <ul class="footer-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-right">
-                <div class="social-icons">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-                <p>adityakumar3216543@gmail.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Aditya Kumar. All rights reserved.</p>
-        </div>
-    </footer>
+<section id="skills">
+  <div class="container">
+    <h2>Skills & Abilities</h2>
+    <div class="skills-grid">
+      <div class="skill">Android (XML)</div>
+      <div class="skill">Java</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">Firebase</div>
+      <div class="skill">OkHttp</div>
+      <div class="skill">SQLite</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">HTML & CSS</div>
+    </div>
+  </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script>
-        // Initialize EmailJS with your Public Key
-        (function() {
-            emailjs.init('_xcZCSoFsKQyUXarQ'); // Replace with your actual public key
-        })();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Verify element exists
-            const typingElement = document.querySelector('.typing-text');
-            if (!typingElement) {
-                console.error('Typed.js error: .typing-text element not found');
-                return;
-            }
-            
-            // Initialize Typed.js with your options
-            new Typed('.typing-text', {
-                strings: [
-                    "App Developer", "Android Developer", "Flutter Developer", "iOS Developer", 
-                    "Java Developer", "Kotlin", "HTML", "CSS", "JavaScript"
-                ],
-                typeSpeed: 70,
-                backSpeed: 25,
-                backDelay: 500,
-                loop: true,
-                showCursor: true,
-                cursorChar: '|',
-                contentType: 'html' // Ensure HTML parsing is enabled
-            });
-        });
+<section id="projects">
+  <div class="container">
+    <h2>Project Made</h2>
+    <div class="card project">
+      <img src="play_store_512.png" alt="Splity">
+      <div>
+        <h3>Splity – Group Expense & Utility App</h3>
+        <p>
+          Android application for students and working professionals to manage group expenses, wallet, bill payments
+          and travel bookings. Includes end-of-month expense review and automatic split calculation.
+        </p>
+        <p><b>Tech:</b> Android (Java, XML), Spring Boot, REST APIs, Razorpay, MSG91, C++ wallet module</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
-                if (targetSection) {
-                    targetSection.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-    </script>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/67c1b6a4b481f1190b620c81/1il6b2th2';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
+<section id="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <div class="card">
+      <form id="contact-form">
+        <input id="name" placeholder="Your Name" required>
+        <input id="email" type="email" placeholder="Your Email" required>
+        <input id="phone" placeholder="Phone">
+        <input id="subject" placeholder="Subject">
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="https://github.com/AdityaKumar2708" target="_blank", rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/aditya-kumar-8a93aa30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank", rel="noopener">LinkedIn</a>
+    <a href="mailto:adityakumar3216543@zohomail.in">Email</a>
+  </div>
+
+  <p>© 2024 Aditya Kumar</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
